@@ -39,11 +39,6 @@ public class listadd {
 		List<Double> ld = Arrays.asList(1.2, 2.3, 3.5);
 		System.out.println("sum = " + sumOfList(ld));
 
-		List<Integer> lin = Arrays.asList(4,5,6);
-		System.out.println("Inmultit = "+multiplyElList(lin));
-		
-		List<Double> lid = Arrays.asList(4.4, 2.3, 3.1);
-		System.out.println("Inmultit = "+ multiplyElList(lid));
 		
 		List<String> listd = new ArrayList<String>();
 		listd.add("7");
@@ -79,12 +74,6 @@ public class listadd {
 		return s;
 	}
 	
-	public static double multiplyElList(List<? extends Number> list) {
-		double s = 0;
-		for(Number n : list)
-			s = n.doubleValue() ;
-		return s;
-	}
 
 }
 
