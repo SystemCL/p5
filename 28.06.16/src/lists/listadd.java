@@ -18,7 +18,7 @@ public class listadd {
 		 * System.out.println("Second: "+liste.size());
 		 */
 
-		// String - Immutable Object
+		// String - Immutable Objecterewrew
 		String string1 = "Hello AAAAAA!";
 		System.out.println(string1);
 		string1 = "Hello BBBBBB!";
