@@ -18,7 +18,7 @@ public class listadd {
 		 * System.out.println("Second: "+liste.size());
 		 */
 
-		// String - Immutable Objecterewrew
+		// String - Immutable Object
 		String string1 = "Hello AAAAAA!";
 		System.out.println(string1);
 		string1 = "Hello BBBBBB!";
@@ -39,20 +39,10 @@ public class listadd {
 		List<Double> ld = Arrays.asList(1.2, 2.3, 3.5);
 		System.out.println("sum = " + sumOfList(ld));
 
-		
-		List<String> listd = new ArrayList<String>();
-		listd.add("7");
-		listd.add("8");
-		listd.add("8");
-		listd.add("8");
-		listd.add("8");
-		
+
 		// System.out.println(listd.size());
 
-		Integer a = listc.size();
-		Integer b = listd.size();
-		
-		System.out.println(a.compareTo(b));
+
 	}
 
 	public static void doSomething(List<String> listc) {
